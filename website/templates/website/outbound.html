@@ -1,0 +1,1589 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Darker Grotesque' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Notable' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Be Vietnam' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Asap' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Asap Condensed' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>International Relations | IIT Kharagpur</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body{
+            background: url("https://wallpaperheart.com/wp-content/uploads/2018/04/sun-lajb-beaches-west-sea-new-background-images-hd.jpg") center no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .smart-scroll{
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 1030;
+            background-color: rgba(12, 30, 131, 0.438);
+            text-decoration: none;
+            margin:-7px;
+            box-shadow: 0px 2px 5px black;
+        }
+        .smart-scroll:hover{
+            box-shadow: 0px 2px 15px white;
+        }
+        .scrolled-down{
+            transform:translateY(-100%); transition: all 0.3s ease-in-out;
+        }
+        .scrolled-up{
+            transform:translateY(0); transition: all 0.3s ease-in-out;
+        }
+        .years{
+            display: block;
+            border-top: 0px solid white;
+            border-bottom: 0px solid white;
+        }
+        .drp1{
+            display:none;
+        }
+        .drp2{
+            display:none;
+        }
+        .drp3{
+            display:none;
+        }
+        .drp4{
+            display:none;
+        }
+        .drp5{
+            display:none;
+        }
+        .drp6{
+            display:none;
+        }
+        .drp7{
+            display:none;
+        }
+        li{
+            list-style-type: none;
+        }
+        .lin0{
+            color:white;
+            font-size: 14px;
+            text-decoration: none;
+            padding-left: 12px;
+            padding-right: 12px;
+            font-family:'Comfortaa';
+        }
+        .lin1{
+            color:white;
+            font-size: 14px;
+            text-decoration: none;
+            padding-left: 12px;
+            padding-right: 12px;
+            font-family:'Comfortaa';
+        }
+        .lin2{
+            color:white;
+            font-size: 14px;
+            text-decoration: none;
+            padding-left: 12px;
+            padding-right: 12px;
+            font-family:'Comfortaa'
+        }
+        .lin3{
+            color:white;
+            font-size: 14px;
+            text-decoration: none;
+            padding-left: 12px;
+            padding-right: 12px;
+            font-family:'Comfortaa'
+        }
+        .lin4{
+            color:white;
+            font-size: 14px;
+            text-decoration: none;
+            padding-left: 12px;
+            padding-right: 12px;
+            font-family:'Comfortaa'
+        }
+        .lin5{
+            color:white;
+            font-size: 14px;
+            text-decoration: none;
+            padding-left: 12px;
+            padding-right: 12px;
+            font-family:'Comfortaa'
+        }
+        .lin6{
+            color:white;
+            background-color:rgba(12, 30, 131, 1);
+            box-shadow: 0px 0px 30px rgba(12, 30, 131, 1);
+            font-size: 14px;
+            text-decoration: none;
+            padding-left: 12px;
+            padding-right: 12px;
+            font-family:'Comfortaa'
+        }
+        .lin7{
+            color:white;
+            font-size: 14px;
+            text-decoration: none;
+            padding-left: 12px;
+            padding-right: 12px;
+            font-family:'Comfortaa'
+        }
+        .drp1{
+            background-color: rgba(12, 30, 131, 0.6);
+            border-top: 1px solid rgba(12, 30, 131, 1);
+            padding-top: 10px;
+            padding-bottom: 10px;;
+            position: absolute;
+            text-align: center ;
+            align-content: center;
+            top: 74px;
+            left: 300px;
+            width: 154px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 6px black;
+        }
+        .drop2{
+            display: block;
+            margin:0%;
+        }
+        .drp2{
+            background-color: rgba(12, 30, 131, 0.6);
+            border-top: 1px solid rgba(12, 30, 131, 1);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            position: absolute;
+            text-align: center ;
+            align-content: center;
+            left: 455px;
+            width: 162px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 6px black;
+        }
+        .drop3{
+            display: block;
+            margin:0%;
+        }
+        .drp3{
+            background-color: rgba(12, 30, 131, 0.6);
+            border-top: 1px solid rgba(12, 30, 131, 1);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            position: absolute;
+            text-align: center ;
+            align-content: center;
+            left: 618px;
+            width: 200px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 6px black;
+        }
+        .drop4{
+            display: block;
+            margin:0%;
+        }
+        .drp4{
+            background-color: rgba(12, 30, 131, 0.6);
+            border-top: 1px solid rgba(12, 30, 131, 1);
+            padding-top: 10px;
+            padding-bottom: 10px;;
+            position: absolute;
+            text-align: center ;
+            align-content: center;
+            left: 819px;
+            width: 190px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 6px black;
+        }
+        .drop5{
+            display: block;
+            margin:0%;
+        }
+        .drp5{
+            background-color: rgba(12, 30, 131, 0.6);
+            border-top: 1px solid rgba(12, 30, 131, 1);
+            padding-top: 10px;
+            padding-bottom: 10px;;
+            position: absolute;
+            text-align: center ;
+            align-content: center;
+            left: 1009px;
+            width: 110px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 6px black;
+        }
+        .drop6{
+            display: block;
+            margin:0%;
+        }
+        .drp6{
+            background-color: rgba(12, 30, 131, 0.6);
+            border-top: 1px solid rgba(12, 30, 131, 1);
+            padding-top: 10px;
+            padding-bottom: 10px;;
+            position: absolute;
+            text-align: center ;
+            align-content: center;
+            left: 1117px;
+            width: 138px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 6px black;
+        }
+        .drop7{
+            display: block;
+            margin:0%;
+        }
+        .drp7{
+            background-color: rgba(12, 30, 131, 0.6);
+            border-top: 1px solid rgba(12, 30, 131, 1);
+            padding-top: 10px;
+            padding-bottom: 10px;;
+            position: absolute;
+            text-align: center ;
+            align-content: center;
+            left: 1398px;
+            width: 136px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 6px black;
+        }
+        .drpc1{
+            text-align: center;
+            color:rgba(255, 255, 255, 1);
+            font-family: "Comfortaa";
+            font-size: 12px;
+        }
+        .drpc2{
+            color:white;
+            font-family: "Comfortaa";
+            transition:0.5s;
+        }
+        .drpc3{
+            color:white;
+            font-family: "Comfortaa";
+            transition:0.5s;
+        }
+        .drpc4{
+            color:white;
+            font-family: "Comfortaa";
+            transition:0.5s;
+        }
+        .drpc5{
+            color:white;
+            font-family: "Comfortaa";
+            transition:0.5s;
+        }
+        .drpc6{
+            color:white;
+            font-family: "Comfortaa";
+            transition:0.5s;
+        }
+        .drpc7{
+            color:white;
+            font-family: "Comfortaa";
+            transition:0.5s;
+        }
+        .drpc8{
+            color:white;
+            font-family: "Comfortaa";
+            transition:0.5s;
+        }
+        .drpc9{
+            color:white;
+            font-family: "Comfortaa";
+            transition:0.5s;
+        }
+        .navbar{
+            height:75px;
+        }
+        .collapse{
+            height:75px;
+        }
+        .lin0:hover{
+            background-color: rgb(255, 255, 255);
+            color:rgba(12, 30, 131, 1);
+            box-shadow: 0px 0px 6px white;
+        }
+        .lin1:hover{
+            background-color: rgb(255, 255, 255);
+            color:rgba(12, 30, 131, 1);
+            box-shadow: 0px 0px 6px white;
+        }
+        .lin2:hover{
+            background-color: rgb(255, 255, 255);
+            color:rgba(12, 30, 131, 1);
+            box-shadow: 0px 0px 6px white;
+        }
+        .lin3:hover{
+            background-color: rgb(255, 255, 255);
+            color:rgba(12, 30, 131, 1);
+            box-shadow: 0px 0px 6px white;
+        }
+        .lin4:hover{
+            background-color: rgb(255, 255, 255);
+            color:rgba(12, 30, 131, 1);
+            box-shadow: 0px 0px 6px white;
+        }
+        .lin5:hover{
+            background-color: rgb(255, 255, 255);
+            color:rgba(12, 30, 131, 1);
+            box-shadow: 0px 0px 6px white;
+        }
+        .lin6:hover{
+            background-color: rgb(255, 255, 255);
+            color:rgba(12, 30, 131, 1);
+            box-shadow: 0px 0px 6px white;
+        }
+        .lin7:hover{
+            background-color: rgb(255, 255, 255);
+            color:rgba(12, 30, 131, 1);
+            box-shadow: 0px 0px 6px white;
+        }
+        .lin0:hover .drp1{
+            display:block;
+        }
+        .lin0:hover .drpc2{
+            color:rgba(12, 30, 131, 1);
+        }
+        .lin1:hover .drp2{
+            display:block;
+        }
+        .lin1:hover .drpc3{
+            color:rgba(12, 30, 131, 1);
+        }
+        .lin2:hover .drp3{
+            display: block;
+        }
+        .lin2:hover .drpc4{
+            color:rgba(12, 30, 131, 1);
+        }
+        .lin3:hover .drp4{
+            display: block;
+        }
+        .lin3:hover .drpc5{
+            color:rgba(12, 30, 131, 1);
+        }
+        .lin4:hover .drp5{
+            display: block;
+        }
+        .lin4:hover .drpc6{
+            color:rgba(12, 30, 131, 1);
+        }
+        .lin5:hover .drp6{
+            display: block;
+        }
+        .lin5:hover .drpc7{
+            color:rgba(12, 30, 131, 1);
+        }
+        .lin7:hover .drp7{
+            display: block;
+        }
+        .lin7:hover .drpc9{
+            color:rgba(12, 30, 131, 1);
+        }
+        .drp1:hover{
+            display: block;
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .two1:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .two2:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .two3:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .two4:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .two5:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .three1:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .three2:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .three3:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .three4:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .three5:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .three6:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .three7:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .three8:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .four1:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .four2:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .four3:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .four4:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .four5:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .four6:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .four7:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .five1:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .five2:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .five3:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .five4:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .five5:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .five6:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .six1:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .six2:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .six3:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .six4:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .seven1:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .seven2:hover{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .two1:hover .drop2{
+            display:block;
+        }
+        .two2:hover .drop2{
+            display:block;
+        }
+        .two3:hover .drop2{
+            display:block;
+        }
+        .two4:hover .drop2{
+            display:block;
+        }
+        .two5:hover .drop2{
+            display:block;
+        }
+        .three1:hover .drop3{
+            display:block;
+        }
+        .three2:hover .drop3{
+            display:block;
+        }
+        .three3:hover .drop3{
+            display:block;
+        }
+        .three4:hover .drop3{
+            display:block;
+        }
+        .three5:hover .drop3{
+            display:block;
+        }
+        .three6:hover .drop3{
+            display:block;
+        }
+        .three7:hover .drop3{
+            display:block;
+        }
+        .three8:hover .drop3{
+            display:block;
+        }
+        .four1:hover .drop4{
+            display:block;
+        }
+        .four2:hover .drop4{
+            display:block;
+        }
+        .four3:hover .drop4{
+            display:block;
+        }
+        .four4:hover .drop4{
+            display:block;
+        }
+        .four5:hover .drop4{
+            display:block;
+        }
+        .four6:hover .drop4{
+            display:block;
+        }
+        .four7:hover .drop4{
+            display:block;
+        }
+        .five1:hover .drop5{
+            display:block;
+        }
+        .five2:hover .drop5{
+            display:block;
+        }
+        .five3:hover .drop5{
+            display:block;
+        }
+        .five4:hover .drop5{
+            display:block;
+        }
+        .five5:hover .drop5{
+            display:block;
+        }
+        .five6:hover .drop5{
+            display:block;
+        }
+        .six1:hover .drop6{
+            display:block;
+        }
+        .six2:hover .drop6{
+            display:block;
+        }
+        .six3:hover .drop6{
+            display:block;
+        }
+        .six4:hover .drop6{
+            display:block;
+        }
+        .seven1:hover .drop7{
+            display:block;
+        }
+        .seven2:hover .drop7{
+            display:block;
+        }
+        .two1:hover .lin1{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .two2:hover .lin1{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .two3:hover .lin1{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .two4:hover .lin1{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .two5:hover .lin1{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .three1:hover .lin2{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .three2:hover .lin2{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .three3:hover .lin2{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .three4:hover .lin2{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .three5:hover .lin2{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .three6:hover .lin2{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .three7:hover .lin2{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .three8:hover .lin2{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .four1:hover .lin3{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .four2:hover .lin3{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .four3:hover .lin3{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .four4:hover .lin3{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .four5:hover .lin3{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .four6:hover .lin3{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .four7:hover .lin3{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .five1:hover .lin4{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .five2:hover .lin4{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .five3:hover .lin4{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .five4:hover .lin4{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .five5:hover .lin4{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .five6:hover .lin4{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .six1:hover .lin5{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .six2:hover .lin5{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .six3:hover .lin5{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .six4:hover .lin5{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .seven1:hover .lin7{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        .seven2:hover .lin7{
+            background-color: white;
+            color:rgba(12, 30, 131, 1);
+        }
+        a:hover {
+            text-decoration: none;
+        }
+        .two1{
+            top:75px;
+            transition: 0.3s;
+        }
+        .two2{
+            top:116px;
+            transition: 0.3s;
+        }
+        .two3{
+            top:157px;
+            transition: 0.3s;
+        }
+        .two4{
+            top:198px;
+            transition: 0.3s;
+        }
+        .two5{
+            top:239px;
+            transition: 0.3s;
+        }
+        .three1{
+            top:75px;
+            transition:0.3s;
+        }
+        .three2{
+            top:116px;
+            transition:0.3s;
+        }
+        .three3{
+            top:157px;
+            transition:0.3s;
+        }
+        .three4{
+            top:198px;
+            transition:0.3s;
+        }
+        .three5{
+            top:239px;
+            transition:0.3s;
+        }
+        .three6{
+            top:280px;
+            transition:0.3s;
+        }
+        .three7{
+            top:321px;
+            transition:0.3s;
+        }
+        .three8{
+            top:362px;
+            transition:0.3s;
+        }
+        .four1{
+            top:75px;
+            transition:0.3s;
+        }
+        .four2{
+            top:116px;
+            transition:0.3s;
+        }
+        .four3{
+            top:157px;
+            transition:0.3s;
+        }
+        .four4{
+            top:198px;
+            transition:0.3s;
+        }
+        .four5{
+            top:239px;
+            transition:0.3s;
+        }
+        .four6{
+            top:280px;
+            transition:0.3s;
+        }
+        .four7{
+            top:321px;
+            transition:0.3s;
+        }
+        .five1{
+            top:75px;
+            transition:0.3s;
+        }
+        .five2{
+            top:116px;
+            transition:0.3s;
+        }
+        .five3{
+            top:157px;
+            transition:0.3s;
+        }
+        .five4{
+            top:198px;
+            transition:0.3s;
+        }
+        .five5{
+            top:259px;
+            transition:0.3s;
+        }
+        .five6{
+            top:300px;
+            transition:0.3s;
+        }
+        .six1{
+            top:75px;
+            transition:0.3s;
+        }
+        .six2{
+            top:116px;
+            transition:0.3s;
+        }
+        .six3{
+            top:157px;
+            transition:0.3s;
+        }
+        .six4{
+            top:198px;
+            transition:0.3s;
+        }
+        .seven1{
+            top:75px;
+            transition:0.3s;
+        }
+        .seven2{
+            top:136px;
+            transition:0.3s;
+        }
+        .outbound{
+            border-top:1px solid white; 
+            border-bottom:1px solid white;
+            transition: 0.5s;
+        }
+        .outbound:hover{
+            background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(181, 197, 231), rgba(10, 46, 124, 0));
+        }
+        .ye1{
+            color:white;
+            font-family: 'Darker Grotesque';
+            font-size: 20px;
+            text-decoration: none;
+            cursor: pointer;
+            padding-left:18px;
+            padding-right: 30px;
+        }
+        .ye2{
+            color:white;
+            font-family: 'Darker Grotesque';
+            font-size: 20px;
+            text-decoration: none;
+            cursor: pointer;
+            padding-left:18px;
+            padding-right: 30px;
+        }
+        .ye3{
+            color:white;
+            font-family: 'Darker Grotesque';
+            font-size: 20px;
+            text-decoration: none;
+            cursor: pointer;
+            padding-left:18px;
+            padding-right: 30px;
+        }
+        .ye4{
+            color:white;
+            font-family: 'Darker Grotesque';
+            font-size: 20px;
+            text-decoration: none;
+            cursor: pointer;
+            padding-left:18px;
+            padding-right: 30px;
+        }
+        .ye5{
+            color:white;
+            font-family: 'Darker Grotesque';
+            font-size: 20px;
+            text-decoration: none;
+            cursor: pointer;
+            padding-left:18px;
+            padding-right: 30px;
+        }
+        .ye1:hover{
+            background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(154, 175, 221), rgba(10, 46, 124, 0));
+        }
+        .ye2:hover{
+            background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(154, 175, 221), rgba(10, 46, 124, 0));
+        }
+        .ye3:hover{
+            background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(154, 175, 221), rgba(10, 46, 124, 0));
+        }
+        .ye4:hover{
+            background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(154, 175, 221), rgba(10, 46, 124, 0));
+        }
+        .ye5:hover{
+            background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(154, 175, 221), rgba(10, 46, 124, 0));
+        }
+        .inbound{
+            border-top:1px solid white; 
+            border-bottom:1px solid white;
+        }
+        .inbound1{
+            position:absolute;
+            left:40px;
+            top:230px;
+            color:rgba(10, 46, 124, 0);
+            font-family: 'Darker Grotesque';
+            font-size: 25px;
+            text-decoration: none;
+        }
+        .years1{
+            display:none;
+        }
+        .inbound:hover{
+            background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(154, 175, 221), rgba(10, 46, 124, 0));
+        }
+        .inbound1:hover{
+            top:100px;
+        }
+        .inbound1:hover ~ .years{
+            display:none;
+        }
+        .inbound1:hover ~ .years1{
+            display:block;
+        }
+        .years1:hover{
+            display:block;
+        }
+        .years1:hover ~ .years{
+            display:none;
+        }
+        .inb:hover ~ .sgrip{
+            border-top: 1px solid white; ;
+        }
+        .sgrip{
+            border-bottom:1px solid white;
+        }
+        .gian{
+            border-bottom:1px solid white;
+        }
+        .ddp{
+            border-bottom:1px solid white;
+        }
+        .sgrip:hover{
+            background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(154, 175, 221), rgba(10, 46, 124, 0));
+        }
+        .gian:hover{
+            background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(154, 175, 221), rgba(10, 46, 124, 0));
+        }
+        .ddp:hover{
+            background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(154, 175, 221), rgba(10, 46, 124, 0));
+        }
+        .ql{
+            position: fixed;
+            top: 550px;
+            left:1380px;
+            z-index:10;
+        }
+        .bar1, .bar2, .bar3 {
+            width: 35px;
+            height: 5px;
+            background-color: #ffffff;
+            margin: 6px 0;
+            transition: 0.4s;
+        }
+        .change .bar1 {
+            -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+            transform: rotate(-45deg) translate(-9px, 6px);
+        }
+        .change .bar2 {opacity: 0;}
+        .change .bar3 {
+            -webkit-transform: rotate(45deg) translate(-8px, -8px);
+            transform: rotate(45deg) translate(-8px, -8px);
+        }
+        .container{
+            background-color: rgba(10, 46, 124, 1);
+            border: 1px solid white;
+            border-radius: 200px;
+            align-content: center;
+            padding-top:12px;
+            width:65px;
+            height: 65px;
+            box-shadow: 0px 0px 7px black;
+            opacity: 0.7;
+            z-index:10;
+        }
+        .container:hover{
+            box-shadow: 0px 0px 7px white;
+            opacity: 1;
+        }
+        div.links{
+            position:fixed;
+            left:1320px;
+            top:185px;
+            background-color: rgba(10, 46, 124, 0.678);
+            padding-right:10px;
+            padding-left:10px;
+            padding-top:30px;
+            padding-bottom:60px;
+            text-align: center;
+            box-shadow:0px 0px 7px black;
+            z-index:6;
+        }
+        .ql:hover ~ .links{
+            box-shadow:0px 0px 20px white;
+        }
+        .open{
+            display:block;
+        }
+        .close{
+            display:none;
+        }
+        .li1{
+            color:white;
+            font-family: 'Darker Grotesque';
+            text-decoration: none;
+            cursor: pointer;
+            border-top: 1px solid white;
+        }
+        .li2{
+            color:white;
+            font-family: 'Darker Grotesque';
+            text-decoration: none;
+            cursor: pointer;
+            border-top: 1px solid white;
+        }
+        .li3{
+            color:white;
+            font-family: 'Darker Grotesque';
+            text-decoration: none;
+            cursor: pointer;
+            border-top: 1px solid white;
+        }
+        .li4{
+            color:white;
+            font-family: 'Darker Grotesque';
+            text-decoration: none;
+            cursor: pointer;
+            border-top: 1px solid white;
+        }
+        .li5{
+            color:white;
+            font-family: 'Darker Grotesque';
+            text-decoration: none;
+            cursor: pointer;
+            border-top: 1px solid white;
+        }
+        .li6{
+            color:white;
+            font-family: 'Darker Grotesque';
+            text-decoration: none;
+            cursor: pointer;
+            border-top: 1px solid white;
+        }
+        .li7{
+            color:white;
+            font-family: 'Darker Grotesque';
+            text-decoration: none;
+            cursor: pointer;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+        }
+        .li1:hover{
+            background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(154, 175, 221), rgba(10, 46, 124, 0));
+        }
+        .li2:hover{
+            background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(154, 175, 221), rgba(10, 46, 124, 0));
+        }
+        .li3:hover{
+            background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(154, 175, 221), rgba(10, 46, 124, 0));
+        }
+        .li4:hover{
+            background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(154, 175, 221), rgba(10, 46, 124, 0));
+        }
+        .li5:hover{
+            background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(154, 175, 221), rgba(10, 46, 124, 0));
+        }
+        .li6:hover{
+            background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(154, 175, 221), rgba(10, 46, 124, 0));
+        }
+        .li7:hover{
+            background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(154, 175, 221), rgba(10, 46, 124, 0));
+        }
+        b{
+            font-family: 'Darker Grotesque';
+            font-size: 25px;
+        }
+        b:hover{
+            color:white;
+            font-family: 'Darker Grotesque';
+            font-size: 25px;
+        }
+        .originalcontent{
+            box-shadow:0px 0px 7px black;
+            border-radius: 10px;
+        }
+        .originalcontent:hover{
+            box-shadow:0px 0px 20px white;
+        }
+        .navbar-brand{
+            background-color:rgba(12, 30, 131, 1);
+            box-shadow: 0px 0px 30px rgba(12, 30, 131, 1);
+            transition: 0.5s;
+        }
+        .navbar-brand:hover{
+            background-color:rgba(12, 30, 131, 1);
+            box-shadow: 0px 0px 30px rgba(12, 30, 131, 1);
+        }
+    </style>
+    <style>
+        .cont{
+            position: absolute;
+            left: 525px;
+            top: 100px;
+            background-color: transparent;
+            background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(255, 255, 255), rgba(10, 46, 124, 0));
+            margin-top: -10px;
+            padding-left:30px;
+            padding-right: 30px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 6px black;
+            animation-name: lighting;
+            animation-duration: 5s;
+        }
+        .cont:hover{
+            background-color: rgba(255, 255, 255, 0.923);
+            box-shadow: 0px 0px 6px white;
+        }
+        h1{
+            font-family: "Comfortaa";
+            margin-top: 6px;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: rgba(255, 255, 255, 0);
+            color: transparent;
+            font-stretch: expanded;
+            background: url("https://wallpaperheart.com/wp-content/uploads/2018/04/sun-lajb-beaches-west-sea-new-background-images-hd.jpg") right;
+            background-size: 250px 200px;
+            -webkit-background-clip: text;
+            font-size: 45px;
+        }
+        h2{
+            font-family: "Be Vietnam";
+            margin-top: -6px;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: rgba(255, 255, 255, 0.411);
+            color: transparent;
+            font-stretch: expanded;
+            background: url("https://wallpaperheart.com/wp-content/uploads/2018/04/sun-lajb-beaches-west-sea-new-background-images-hd.jpg") right ;
+            background-size: 50%;
+            -webkit-background-clip: text;
+            font-size: 40px;
+        }
+        @keyframes lighting{
+            0%  {background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(255, 255, 255), rgba(10, 46, 124, 0));box-shadow: 0px 0px 6px black;}
+            5%  {background-color: rgba(255, 255, 255, 0.923);box-shadow: 0px 0px 6px white;}
+            10%  {background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(255, 255, 255), rgba(10, 46, 124, 0));box-shadow: 0px 0px 6px black;}
+            15%  {background-color: rgba(255, 255, 255, 0.923);box-shadow: 0px 0px 6px white;}
+            20%  {background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(255, 255, 255), rgba(10, 46, 124, 0));box-shadow: 0px 0px 6px black;}
+            25%  {background-color: rgba(255, 255, 255, 0.923);box-shadow: 0px 0px 6px white;}
+            30%  {background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(255, 255, 255), rgba(10, 46, 124, 0));box-shadow: 0px 0px 6px black;}
+            35%  {background-color: rgba(255, 255, 255, 0.923);box-shadow: 0px 0px 6px white;}
+            40%  {background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(255, 255, 255), rgba(10, 46, 124, 0));box-shadow: 0px 0px 6px black;}
+            45%  {background-color: rgba(255, 255, 255, 0.923);box-shadow: 0px 0px 6px white;}
+            50%  {background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(255, 255, 255), rgba(10, 46, 124, 0));box-shadow: 0px 0px 6px black;}
+            55%  {background-color: rgba(255, 255, 255, 0.923);box-shadow: 0px 0px 6px white;}
+            60%  {background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(255, 255, 255), rgba(10, 46, 124, 0));box-shadow: 0px 0px 6px black;}
+            65%  {background-color: rgba(255, 255, 255, 0.923);box-shadow: 0px 0px 6px white;}
+            70%  {background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(255, 255, 255), rgba(10, 46, 124, 0));box-shadow: 0px 0px 6px black;}
+            75%  {background-color: rgba(255, 255, 255, 0.923);box-shadow: 0px 0px 6px white;}
+            80%  {background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(255, 255, 255), rgba(10, 46, 124, 0));box-shadow: 0px 0px 6px black;}
+            85%  {background-color: rgba(255, 255, 255, 0.923);box-shadow: 0px 0px 6px white;}
+            90%  {background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(255, 255, 255), rgba(10, 46, 124, 0));box-shadow: 0px 0px 6px black;}
+            95%  {background-color: rgba(255, 255, 255, 0.923);box-shadow: 0px 0px 6px white;}
+            100%  {background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(255, 255, 255), rgba(10, 46, 124, 0));box-shadow: 0px 0px 6px black;}
+            
+        }
+        .conte{
+            width:950px;
+            position: absolute;
+            left: 295px;
+            background-color: transparent;
+            background-image: linear-gradient(to right,rgba(10, 46, 124, 0),rgb(255, 255, 255), rgba(10, 46, 124, 0));
+            padding-left:30px;
+            padding-right: 30px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 20px black;
+            text-align: center;
+            align-content: center;
+        }
+        .conte:hover{
+            background-color: rgba(255, 255, 255, 1);
+            box-shadow: 0px 0px 15px white;
+        }
+        .conten{
+            width:950px;
+            position: relative;
+            background-color:rgba(255, 255, 255, 0.651);
+            padding-right: 30px;
+            padding-left: 15px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 20px black;
+            text-align: center;
+            align-content: center;
+        }
+        .conten:hover{
+            background-color: rgba(255, 255, 255, 1);
+            box-shadow: 0px 0px 15px white;
+        }
+        .rmo{
+           display: none;
+        }
+        .conten:hover .rmo{
+           display: block;
+        }
+        a:visited {
+           color: white;
+           text-decoration: none;
+        }
+        a:hover{
+           color: rgba(12, 30, 131, 1);
+        }
+    </style>
+    <body>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <nav class="navbar smart-scroll navbar-expand-lg navbar-dark bg-primary">
+            <img class="navbar-brand" src="https://international.iitkgp.ac.in/static/website/img/header.png" href="#"style="width:300px;height:75px;">
+            <ul class="navbar-nav lin0" style="border-left: 1px solid white;padding-top: 27px;padding-bottom: 27px;padding-left: 20px;height:73px;">
+                <li>
+                    <a class="drpc2" href="#">IIT KGP Faculty <i class='fas fa-angle-down' style='font-size:15px;color:white;'></i></a>
+                    <div class="drp1">
+                        <a class="drpc1" href="#">Internal</a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav lin1" style="border-left: 1px solid white;padding-top: 27px;padding-bottom: 27px;padding-left: 20px;height:75px;">
+                <li>
+                    <a class="drpc3" href="#"> IIT KGP Students <i class='fas fa-angle-down' style='font-size:15px;color:white;'></i></a>
+                    <div class="drop2">
+                        <div class="drp2 two1">
+                            <a class="drpc1" href="#">Programs</a></br>
+                        </div>
+                        <div class="drp2 two2">
+                            <a class="drpc1" href="#">Funding</a></br>
+                        </div>
+                        <div class="drp2 two3">
+                            <a class="drpc1" href="#">FTP</a></br>
+                        </div>
+                        <div class="drp2 two4">
+                            <a class="drpc1" href="#">Opurtunities</a></br>
+                        </div>
+                        <div class="drp2 two5">
+                            <a class="drpc1" href="#">Exchange Diaries</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav lin2" style="border-left: 1px solid white;padding-top: 27px;padding-bottom: 27px;padding-left: 20px;height:75px;">
+                <li>
+                    <a class="drpc4" href="#"> Interntional Students <i class='fas fa-angle-down' style='font-size:15px;color:white;'></i></a>
+                    <div class="drop3">
+                        <div class="drp3 three1">
+                            <a class="drpc1" href="#">Academic Programs</a>
+                        </div>
+                        <div class="drp3 three2">
+                            <a class="drpc1" href="#">How to apply</a>
+                        </div>
+                        <div class="drp3 three3">
+                            <a class="drpc1" href="#">Fee Structure</a>
+                        </div>
+                        <div class="drp3 three4">
+                            <a class="drpc1" href="#">Funding</a>
+                        </div>
+                        <div class="drp3 three5">
+                            <a class="drpc1" href="#">Visa</a>
+                        </div>
+                        <div class="drp3 three6">
+                            <a class="drpc1" href="#">Accommodation</a>
+                        </div>
+                        <div class="drp3 three7">
+                            <a class="drpc1" href="#">Campus life</a>
+                        </div>
+                        <div class="drp3 three8">
+                            <a class="drpc1" href="#">Exchange Diaries</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav lin3" style="border-left: 1px solid white;padding-top: 27px;padding-bottom: 27px;padding-left: 20px;height:75px;">
+                <li>
+                    <a class="drpc5" href="#"> Interntional Faculty <i class='fas fa-angle-down' style='font-size:15px;color:white;'></i></a>
+                    <div class="drop4">
+                        <div class="drp4 four1">
+                            <a class="drpc1" href="#">Project Registration</a>
+                        </div>
+                        <div class="drp4 four2">
+                            <a class="drpc1" href="#">Opurtunities</a>
+                        </div>
+                        <div class="drp4 four3">
+                            <a class="drpc1" href="#">Funding</a>
+                        </div>
+                        <div class="drp4 four4">
+                            <a class="drpc1" href="#">Visa</a>
+                        </div>
+                        <div class="drp4 four5">
+                            <a class="drpc1" href="#">Accommodation</a>
+                        </div>
+                        <div class="drp4 four6">
+                            <a class="drpc1" href="#">Campus life</a>
+                        </div>
+                        <div class="drp4 four7">
+                            <a class="drpc1" href="#">Exchange Diaries</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav lin4" style="border-left: 1px solid white;padding-top: 27px;padding-bottom: 27px;padding-left: 20px;height:75px;">
+                <li>
+                    <a class="drpc6" href="#"> Partners <i class='fas fa-angle-down' style='font-size:15px;color:white;'></i></a>
+                    <div class="drop5">
+                        <div class="drp5 five1">
+                            <a class="drpc1" href="#">MoU</a>
+                        </div>
+                        <div class="drp5 five2">
+                            <a class="drpc1" href="#">Industries</a>
+                        </div>
+                        <div class="drp5 five3">
+                            <a class="drpc1" href="#">IPR</a>
+                        </div>
+                        <div class="drp5 five4">
+                            <a class="drpc1" href="#">Ministies and Embassies</a>
+                        </div>
+                        <div class="drp5 five5">
+                            <a class="drpc1" href="#">Philanthropists</a>
+                        </div>
+                        <div class="drp5 five6">
+                            <a class="drpc1" href="#">Alumni Relations</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav lin5" style="border-left: 1px solid white;padding-top: 27px;padding-bottom: 27px;padding-left: 20px;height:75px;">
+                <li>
+                    <a class="drpc7" href="#"> Publications <i class='fas fa-angle-down' style='font-size:15px;color:white;'></i></a>
+                    <div class="drop6">
+                        <div class="drp6 six1">
+                            <a class="drpc1" href="#">IIT KGP Researcher</a>
+                        </div>
+                        <div class="drp6 six2">
+                            <a class="drpc1" href="#">Newsletters</a>
+                        </div>
+                        <div class="drp6 six3">
+                            <a class="drpc1" href="#">Research Newsletters</a>
+                        </div>
+                        <div class="drp6 six4">
+                            <a class="drpc1" href="#">Flyers</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav lin6" style="border-left: 1px solid white;padding-top: 27px;padding-bottom: 27px;padding-left: 20px;height:75px;">
+                <li>
+                    <a class="drpc8" href="#"> Forever KGPian </a>
+                </li>
+            </ul>
+            <ul class="navbar-nav lin7" style="border-left: 1px solid white;padding-top: 27px;padding-bottom: 27px;padding-left: 10px;height:75px;">
+                <li>
+                    <a class="drpc9" href="#" style="font-size: 14px;text-decoration: none;padding-left: 12px;"> Contact us <i class='fas fa-angle-down' style='font-size:15px;color:white;'></i></a>
+                    <div class="drop7">
+                        <div class="drp7 seven1">
+                            <a class="drpc1" href="#">International Relations</a>
+                        </div>
+                        <div class="drp7 seven2">
+                            <a class="drpc1" href="#">Office of International Relations</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <script>
+            $('body').css('padding-top', $('.navbar').outerHeight() + 'px')
+
+            // detect scroll top or down
+            if ($('.smart-scroll').length > 0) { // check if element exists
+                var last_scroll_top = 0;
+                $(window).on('scroll', function() {
+                    scroll_top = $(this).scrollTop();
+                    if(scroll_top < last_scroll_top) {
+                        $('.smart-scroll').removeClass('scrolled-down').addClass('scrolled-up');
+                    }
+                    else {
+                        $('.smart-scroll').removeClass('scrolled-up').addClass('scrolled-down');
+                    }
+                    last_scroll_top = scroll_top;
+                });
+            }
+        </script>
+        <div style="padding-top:100px;">
+            <div class="originalcontent" style="position:fixed;left:20px;background-color: rgba(10, 46, 124, 0.678);padding-right:10px;padding-left:10px;padding-top:30px;padding-bottom:30px;text-align: center;">
+                <div class="inb" style="color:white;font-family: 'Darker Grotesque';font-size: 25px;align-content: center;text-align: center;">
+                    <div class="outbound">
+                        <p>Outbound Diaries</p>
+                    </div>
+                    <div class="inbound1">
+                        <a href="#" style="color:rgba(0,0,0,0)">Inbound Diaries</a>
+                    </div>
+                    <div class="years">
+                        <div class="ye1">
+                            <a href="#" class="drpc1" style="font-size:20px;font-weight: lighter;">2019</a>
+                        </div>
+                        <div class="ye2">
+                            <a href="#" class="drpc1" style="font-size:20px;font-weight: lighter;">2018</a>
+                        </div>
+                        <div class="ye3">
+                            <a href="#" class="drpc1" style="font-size:20px;font-weight: lighter;">2017</a>
+                        </div>
+                        <div class="ye4">
+                            <a href="#" class="drpc1" style="font-size:20px;font-weight: lighter;">2016</a>
+                        </div>
+                        <div class="ye5">
+                            <a href="#" class="drpc1" style="font-size:20px;font-weight: lighter;">2015</a>
+                        </div>
+                    </div>
+                    <div class="inbound">
+                        <a href="#" style="color:white;font-family: 'Darker Grotesque';font-size: 25px;text-decoration: none;">Inbound Diaries</a>
+                    </div>
+                    <div class="years1">
+                        <div class="ye1">
+                            <a href="#" class="drpc1" style="font-size:20px;font-weight: lighter;">2019</a>
+                        </div>
+                        <div class="ye2">
+                            <a href="#" class="drpc1" style="font-size:20px;font-weight: lighter;">2018</a>
+                        </div>
+                        <div class="ye3">
+                            <a href="#" class="drpc1" style="font-size:20px;font-weight: lighter;">2017</a>
+                        </div>
+                        <div class="ye4">
+                            <a href="#" class="drpc1" style="font-size:20px;font-weight: lighter;">2016</a>
+                        </div>
+                        <div class="ye5">
+                            <a href="#" class="drpc1" style="font-size:20px;font-weight: lighter;">2015</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sgrip" style="border-bottom:1px solid white;" >
+                    <a href="#" style="color:white;font-family: 'Darker Grotesque';font-size: 25px;text-decoration: none;">SGRIP</a>
+                </div>
+                <div class="gian" style="border-bottom:1px solid white;">
+                    <a href="#" style="color:white;font-family: 'Darker Grotesque';font-size: 25px;text-decoration: none;">GIAN</a>
+                </div>
+                <div class="ddp" style="border-bottom:1px solid white;">
+                    <a href="#" style="color:white;font-family: 'Darker Grotesque';font-size: 25px;text-decoration: none;">Dual Doctoral Program</a>
+                </div>
+            </div>
+        </div>
+        <div class="ql">
+            <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div id="bar2" class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+        <div class="links close" id="links">
+            <p style="color:white;font-family: 'Darker Grotesque';font-size: 35px;">Quick links</p>
+            <div class="li1">
+                <a href="#" class="drpc1" style="color:white;font-family: 'Darker Grotesque';font-size: 25px;">MoUs</a>
+            </div>
+            <div class="li2">
+                <a href="#" class="drpc1" style="color:white;font-family: 'Darker Grotesque';font-size: 25px;">How to Apply</a>
+            </div>
+            <div class="li3">
+                <a href="#" class="drpc1" style="color:white;font-family: 'Darker Grotesque';font-size: 25px;">Contact</a>
+            </div>
+            <div class="li4">
+                <a href="#" class="drpc1" style="color:white;font-family: 'Darker Grotesque';font-size: 25px;">OIR Login</a>
+            </div>
+            <div class="li5">
+                <a href="#" class="drpc1" style="color:white;font-family: 'Darker Grotesque';font-size: 25px;">IIT KGP Website</a>
+            </div>
+            <div class="li6">
+                <a href="#" class="drpc1" style="color:white;font-family: 'Darker Grotesque';font-size: 25px;">Exchange Diaries</a>
+            </div>
+            <div class="li7">
+                <a href="#" class="drpc1" style="color:white;font-family: 'Darker Grotesque';font-size: 25px;">Payment</a>
+            </div>
+        </div>
+        <script>
+            function myFunction(x) {
+                x.classList.toggle("change");
+                var rd = document.getElementById("links");
+                $("div.links").toggleClass("close");
+                $("div.links").toggleClass("open");
+            }
+        </script>
+        <div class="cont">
+            <h1>Exchange Diaries</h1>
+        </div>
+        <div class="conte" style="top:175px;margin-top: -10px;">
+            <p>By <a href="#" style="color:rgba(12, 30, 131, 1);"><b>International Relations </b></a><img src="https://international.iitkgp.ac.in/static/website/img/irclogo.png" style="width:30px;"></p>
+            <h2>Outbound Diaries</h2>
+            <h4 style="font-family: 'Be Vietnam';color:rgb(126, 126, 126);font-size: 30px;">2019</h4>
+        </div>
+        <hr style="position:absolute; top: 300px; width: 950px;left:290px;border-top: 2px solid white; box-shadow: 0px 0px 6px white;">
+        <div style="position: absolute;left:295px;top:360px;">
+            {% for album in all_albums %}
+            <div class="conten" style="cursor: pointer;" onclick="location.href='#';">
+                <div class="col-md-4" style="padding-right:30px;padding-top:10px;padding-bottom:10px;">
+                    <img class="ima" src="{{album.source}}" style="float: left;width:250px;height:250px;border:1px solid rgb(168, 168, 168);border-radius: 10px;">
+                </div>
+                <div style="font-family: 'Asap Condensed';padding-top:30px;padding-left:40px;padding-bottom:16px;text-align: left;">
+                  <div class="rmo" style="float:right;width: 100px;position:absolute;left:800px;font-size: 17px;">
+                     <p>Read more  <i class='fas fa-angle-right' style="color:rgb(67, 88, 180);font-size:20px;"></i></p>
+                  </div>
+                    <h4 style="font-family: 'Asap';font-size:30px;">{{album.name}}</h4>
+                    <b>{{album.dept}}</b>
+                    <p style="color:rgba(255, 255, 255, 0);"> fy</p>
+                    <p><i>{{album.place}}</i></p>
+                    <p><b style="font-size:20px;">Research Area:</b> {{album.rsch}}</p>
+                    <p><b style="font-size:20px;">Duration:</b> {{album.dur}}</p>
+                </div>
+            </div>
+            <div style="padding-bottom:15px;"></div>
+            
+            {% endfor %}
+        </div>
+        <script>
+            function ho1(element){
+                element.style.backgroundColor="rgba(3, 38, 114, 1)";
+                element.style.color="white";
+                element.style.boxShadow="0px 0px 10px rgba(3, 38, 114, 1)";
+            }
+            function unho1(element){
+                element.style.backgroundColor="rgba(3, 38, 114, 0.6)";
+                element.style.color="rgb(0,7,22)";
+                element.style.boxShadow="0px 0px 0px rgba(3, 38, 114, 1)";
+            }
+        </script>
+    </body>
